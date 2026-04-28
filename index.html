@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ─── NAV ─────────────────────────────────────────── -->
+<nav>
+  <div class="nav-logo">Portfolio</div>
+  <ul class="nav-links">
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#connect">Contact</a></li>
+  </ul>
+  <button class="nav-hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile dropdown -->
+<div class="mobile-menu">
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#connect">Contact</a>
+</div>
+
+<!-- ─── HERO ─────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-eyebrow">Nguon Monyroth - Full-Stack Developer</div>
+  <h1 class="hero-name">Building <em>systems</em><br>that work.</h1>
+  <p class="hero-tagline">
+    I design and build web platforms, mobile apps, and backend systems —
+    from inventory ERPs to e-commerce storefronts to real-time detection tools.
+  </p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn btn-primary">View Projects</a>
+    <a href="#connect" class="btn btn-outline">Get in Touch</a>
+  </div>
+  <div class="hero-scroll">scroll to explore</div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── SKILLS ───────────────────────────────────────── -->
+<section id="skills">
+  <div class="section-label">Technical Skills</div>
+  <h2 class="section-title">Languages &amp; Tools</h2>
+  <div class="stack-grid">
+    <span class="tag accent">TypeScript</span>
+    <span class="tag accent">Python</span>
+    <span class="tag accent">Flutter</span>
+    <span class="tag accent">JavaScript</span>
+    <span class="tag">HTML / CSS</span>
+    <span class="tag">Tailwind CSS</span>
+    <span class="tag">Bootstrap</span>
+    <span class="tag">PostgreSQL</span>
+    <span class="tag">MySQL</span>
+    <span class="tag">Supabase</span>
+    <span class="tag">REST APIs</span>
+    <span class="tag">Docker</span>
+    <span class="tag">ABA Payway</span>
+    <span class="tag">OpenCV / YOLO</span>
+    <span class="tag">Relational DB Design</span>
+    <span class="tag">Real-time Sync</span>
+    <span class="tag">B2B Mobile Apps</span>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── PROJECTS ─────────────────────────────────────── -->
+<section id="projects">
+  <div class="section-label">Selected Work</div>
+  <h2 class="section-title">Projects</h2>
+
+  <div class="projects-grid">
+
+    <div class="project-card reveal">
+      <div class="project-num">01</div>
+      <div class="project-name">Enterprise Resource Planning</div>
+      <div class="project-client">MetalFlow</div>
+      <p class="project-desc">
+        Full ERP system for inventory and operations management. Designed relational
+        database schemas, implemented real-time inventory synchronization, and built
+        API-based workflows for day-to-day operations.
+      </p>
+      <div class="project-tags">
+        <span class="tag">TypeScript</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">REST API</span>
+        <span class="tag">Real-time Sync</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">02</div>
+      <div class="project-name">E-Commerce Platform</div>
+      <div class="project-client">CBVS Jewelry</div>
+      <p class="project-desc">
+        Responsive e-commerce storefront with dynamic product listings and real-time
+        stock updates. Built a clean, mobile-first frontend and integrated REST APIs
+        for seamless data delivery.
+      </p>
+      <div class="project-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">Tailwind CSS</span>
+        <span class="tag">REST API</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">03</div>
+      <div class="project-name">Cooking Book Recipe Platform</div>
+      <div class="project-client">SAVEUR</div>
+      <p class="project-desc">
+        Responsive recipe discovery web platform with API-powered content and MySQL
+        backend. Designed for both home cooks and culinary enthusiasts seeking
+        structured, searchable recipe data.
+      </p>
+      <div class="project-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Bootstrap</span>
+        <span class="tag">MySQL</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">04</div>
+      <div class="project-name">Plastic Recycle Platform</div>
+      <div class="project-client">Go Green</div>
+      <p class="project-desc">
+        Backend-driven sustainability platform that automates exchange-value
+        calculations for returned plastic materials. Containerized with Docker for
+        consistent, scalable deployment across environments.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Transaction Logic</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">05</div>
+      <div class="project-name">Traffic Sign Detector</div>
+      <div class="project-client">Plak Sanha</div>
+      <p class="project-desc">
+        Real-time traffic sign recognition system supporting both image upload and
+        live camera input. Delivers automatic identification and audio-visual
+        explanations, intended for driver-assistance system integration.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Computer Vision</span>
+        <span class="tag">Real-time Detection</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">06</div>
+      <div class="project-name">Agricultural E-Market</div>
+      <div class="project-client">Psar Kaksekor</div>
+      <p class="project-desc">
+        B2B mobile marketplace connecting agricultural buyers and sellers. Built with
+        Flutter and Supabase, integrated ABA Payway for real-time digital payments,
+        and designed a full REST API for frontend-backend communication.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Flutter</span>
+        <span class="tag">Supabase</span>
+        <span class="tag">ABA Payway</span>
+        <span class="tag">REST API</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── CONNECT ───────────────────────────────────────── -->
+<section id="connect">
+  <div class="section-label">Connect</div>
+  <h2 class="section-title">Get in Touch</h2>
+
+  <div class="connect-grid">
+    <div class="connect-text reveal">
+      <p>
+        I'm open to new projects, collaborations, and opportunities. Whether you
+        have a product idea, a technical challenge, or just want to connect —
+        feel free to reach out.
+      </p>
+      <p>Currently available for freelance work and full-time roles.</p>
+    </div>
+
+    <div class="connect-links reveal">
+
+      <!-- GitHub -->
+      <a href="https://github.com/MONYROTH007" target="_blank" rel="noopener" class="connect-link">
+        <div class="connect-link-label">
+          <div class="connect-link-icon">
+            <!-- GitHub SVG -->
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58
+                0-.28-.01-1.03-.02-2.03-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76
+                -1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.49 1
+                .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22
+                -.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0
+                2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84
+                1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22 0 1.6
+                -.01 2.9-.01 3.29 0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </div>
+          <div>
+            <div>GitHub</div>
+            <div class="connect-link-meta">MONYROTH007</div>
+          </div>
+        </div>
+        <span class="connect-link-arrow">↗</span>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/monyroth-nguon-a4b6872b6/" target="_blank" rel="noopener" class="connect-link">
+        <div class="connect-link-label">
+          <div class="connect-link-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13
+                1.44-2.13 2.93v5.68H9.37V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85
+                3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12
+                2.06 2.06 0 0 1 0 4.12zM3.56 20.45h3.56V9H3.56v11.45zM22.22
+                0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45
+                C23.21 24 24 23.23 24 22.27V1.73C24 .77 23.21 0 22.22 0z"/>
+            </svg>
+          </div>
+          <div>
+            <div>LinkedIn</div>
+            <div class="connect-link-meta">Monyroth Nguon</div>
+          </div>
+        </div>
+        <span class="connect-link-arrow">↗</span>
+      </a>
+
+      <!-- Email -->
+      <a href="monyrothnguon@gmail.com" class="connect-link">
+        <div class="connect-link-label">
+          <div class="connect-link-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="M2 7l10 7 10-7"/>
+            </svg>
+          </div>
+          <div>
+            <div>Email</div>
+            <div class="connect-link-meta">monyrothnguon@gmail.com</div>
+          </div>
+        </div>
+        <span class="connect-link-arrow">↗</span>
+      </a>
+
+      <!-- Telegram — click copies phone number to clipboard -->
+      <!--
+        HOW TO USE:
+        1. Set href to your Telegram link, e.g. https://t.me/your_username
+        2. Set data-phone to your phone number (e.g. +855 12 345 678)
+           Clicking the card will copy the number to clipboard automatically.
+      -->
+      <a
+        href="https://t.me/nguonmonyroth"
+        target="https://t.me/nguonmonyroth"
+        rel="noopener"
+        class="connect-link tg"
+  
+      >
+        <div class="connect-link-label">
+          <div class="connect-link-icon">
+            <!-- Telegram paper-plane SVG -->
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22.27 2.13a1.5 1.5 0 0 0-1.54-.2L2.13 9.5a1.5 1.5 0 0 0
+                .1 2.79l4.28 1.43 1.85 5.55a1.5 1.5 0 0 0 2.55.48l2.5-2.9
+                4.09 3.01a1.5 1.5 0 0 0 2.36-1l2.94-15.5a1.5 1.5 0 0
+                0-.53-1.23zM10 15.83l-1.3-3.9 8.16-5.89L10 15.83zm1.14
+                2.47-.7-2.1 1.46-1.7-.76 3.8zm5.6.22-4.43-3.26 6.3-7.64-1.87 10.9z"/>
+            </svg>
+          </div>
+          <div>
+            <div>Telegram</div>
+            <div class="connect-link-meta">+855 93 535 745</div>
+          </div>
+        </div>
+        <span class="connect-link-arrow">↗</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─────────────────────────────────────────── -->
+<footer>
+  <div class="footer-copy">© <span id="year"></span> — All rights reserved.</div>
+  <ul class="footer-links">
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#connect">Contact</a></li>
+  </ul>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
